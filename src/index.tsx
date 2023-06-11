@@ -5,7 +5,6 @@ import {store} from "app/store";
 import App from "app/App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
-import {HashRouter} from "react-router-dom";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
@@ -13,9 +12,7 @@ const root = createRoot(container);
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <HashRouter>
-                <App/>
-            </HashRouter>
+            <App/>
         </Provider>
     </React.StrictMode>
 );
