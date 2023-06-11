@@ -1,0 +1,16 @@
+export const PATH = {
+  START_PAGE: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  PROFILE: '/profile',
+  FORGOT_PASS: '/forgot-password',
+  SET_NEW_PASS: '/set-new-password/:resetToken',
+  CHECK_EMAIL: '/check-email',
+  PAGE404: '/404',
+  WRONG_PATH: '*',
+  PACKS: '/packs',
+  PACK: '/packs/:id_pack',
+  CARD: '/packs/pack/:id_pack/card/:id_card',
+  ADD_NEW_PACK: '/add-new-pack',
+  LEARN: '/packs/pack/:id_pack/learn',
+}
