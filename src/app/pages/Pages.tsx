@@ -9,7 +9,7 @@ import {SetNewPassword} from "features/auth/password/SetNewPassword";
 import {Learn} from "features/learn/Learn";
 import {Packs} from "features/packs/Packs";
 import {Cards} from "features/cards/Cards";
-import {Profile} from "features/profile/Profile";
+import {Profile} from "features/auth/profile/Profile";
 
 //TODO : add Outlet
 
